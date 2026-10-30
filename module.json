@@ -1,0 +1,41 @@
+{
+  "id": "fabula-ultima-chanter-composer-dm-arkhron",
+  "title": "Fabula Ultima - Chanter Composer - DM Arkhron",
+  "description": "Compositor de versos do Chanter para ProjectFU no Foundry V13.",
+  "version": "1.0.0",
+  "url": "https://github.com/DMArkhron/fabula-ultima-chanter-composer-dm-arkhron",
+  "manifest": "https://raw.githubusercontent.com/DMArkhron/fabula-ultima-chanter-composer-dm-arkhron/main/module.json",
+  "download": "https://github.com/DMArkhron/fabula-ultima-chanter-composer-dm-arkhron/releases/download/v1.0.0/fabula-ultima-chanter-composer-dm-arkhron-v1.0.0.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "projectfu",
+        "type": "required"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/chanter.js"
+  ],
+  "styles": [
+    "styles/chanter.css"
+  ],
+  "packs": [
+    {
+      "name": "chanter-macros",
+      "label": "Chanter Composer | Macros",
+      "path": "packs/chanter-macros",
+      "type": "Macro",
+      "system": "projectfu"
+    }
+  ],
+  "authors": [
+    {
+      "name": "DM Arkhron"
+    }
+  ]
+}
